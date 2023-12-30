@@ -14,7 +14,6 @@ body {
   
   .all-content {
     display: flex;
-
     margin: 0;
   }
   
@@ -24,9 +23,11 @@ body {
     flex: 1;
     background-color: #333333;
   }
+
   .app{
     flex: 25;
   }
+
   .main-content {
     flex-grow: 1;
   }
@@ -37,6 +38,7 @@ body {
     color: white;
     padding: 10px;
   }
+  
   .web-layout {
     display: flex;
     justify-content: space-between;

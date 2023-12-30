@@ -8,4 +8,4 @@
 -Carousel
 -Modal na feedback?
 -Offcanvas
--tOAST
+-Toast

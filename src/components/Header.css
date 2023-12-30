@@ -43,9 +43,11 @@ flex-direction: row;
   margin-top: 0;
   margin-left: 10px;
 }
+
 .searchskin{
   border: 2px solid cornflowerblue;
 }
+
 .search input {
   width: 200px;
   padding: 10px;
@@ -56,11 +58,13 @@ flex-direction: row;
   border-right: none; 
   box-shadow: none;
 }
+
 .glass{
   width: 16px;
   height: 16px;
   margin-right: 10px;
 }
+
 .search button {
   background-color: #07058b;;
   color: white;
@@ -70,6 +74,7 @@ flex-direction: row;
   border-left: none;
   box-shadow: none;
 }
+
 .search-icon {
   width: 20px; 
   height: 20px;
@@ -88,6 +93,7 @@ flex-direction: row;
   margin-right: 5px;
   text-decoration: none;
 }
+
 .logo-text{
   margin-top: 20px;
 }
@@ -97,13 +103,16 @@ flex-direction: row;
   flex-direction: row;
   margin-left: 12px;
 }
+
 @media (max-width: 807px) {
 .search{
   display: none;
 }
+
 body{
   justify-content: space-around;
 }
+
 .header-last-part{
   justify-self: center;
 }
