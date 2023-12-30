@@ -21,10 +21,7 @@ const React2 = () => {
     <Router>
       <div className="whole-app">
         <Routes>
-          {/* Přidán nový Route pro /sablona */}
           <Route path="/sablona" element={<Sablona />} />
-
-          {/* Přidán Route pro root cestu */}
           <Route
             path="/"
             element={

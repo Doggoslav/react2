@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HeaderMenu from './components/HeaderMenu';
-import Subpage from './Subpage';
+import Subpage from './subpage';
 
 const Sablona = () => {
   return (
