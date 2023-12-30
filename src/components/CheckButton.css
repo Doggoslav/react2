@@ -1,0 +1,18 @@
+.check-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background-color: #07058b;
+  transition: transform 0.3s ease;
+border: 1px greenyellow solid;
+}
+
+button:hover {
+  transform: scale(1.1); 
+}

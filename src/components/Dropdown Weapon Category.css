@@ -1,0 +1,14 @@
+.custom-dropdown-toggle {
+    background-color: #0a3474 !important; 
+    border-color: rgb(10, 10, 8) !important;
+    color: #ffffff !important;
+  }
+
+  .custom-dropdown-menu {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .custom-dropdown-menu.show {
+    opacity: 1;
+  }

@@ -1,0 +1,91 @@
+.new-tag {
+    background-color: #00ff00; 
+  }
+  
+  .weapons-tag {
+    background-color: #ff0000; 
+  }
+  
+  .rarity-tag {
+    background-color: #0000ff; 
+  }
+  
+  .tag {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white; 
+  }
+
+  .tags{
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+.all-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .one-article {
+    position: relative;
+    background-color: lightblue;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 0px 0px 20px black;
+    color: black;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    max-width: 400px;
+    height: 400px;
+  }
+  
+  .one-article img {
+    height: 225px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .one-article p,
+  .one-article h2 {
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .one-article.hovered {
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0px 0px 20px black;
+  }
+  
+  .created-date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  @media (max-width: 1000px) {
+    .all-articles {
+      justify-content: flex-start;
+    }
+  
+    .one-article {
+      display: none; 
+    }
+  
+    .one-article:nth-child(-n + 3) {
+      display: flex; 
+    }
+  }
